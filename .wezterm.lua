@@ -4,6 +4,7 @@ return {
     -- default_prog = {'wsl.exe', '-d', 'kali', '--cd', '~'},
     default_prog = {'wsl.exe', '-d', 'kali-linux', '--cd', '~'},
     default_cursor_style = 'BlinkingBar',
+    window_decorations = "RESIZE",
     color_schemes = {
         ['banana-blueberry'] = {
             foreground = '#cccccc',
